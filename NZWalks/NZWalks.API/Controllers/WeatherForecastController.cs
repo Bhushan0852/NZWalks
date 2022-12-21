@@ -4,7 +4,7 @@ namespace NZWalks.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : Controller
+    public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
         {
