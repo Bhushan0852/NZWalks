@@ -5,6 +5,6 @@
         public Guid Id { get; set; }
         public string Code { get; set; }
 
-        public Walk Walks { get; set; }
+       // public Walk Walks { get; set; }
     }
 }
